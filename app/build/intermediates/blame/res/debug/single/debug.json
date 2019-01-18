@@ -48,6 +48,10 @@
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\anim\\abc_slide_out_top.xml"
     },
     {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable_template2overlay.png.flat",
+        "source": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\src\\main\\res\\drawable\\template2overlay.png"
+    },
+    {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -60,12 +64,12 @@
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
-        "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -900,6 +904,10 @@
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nav.xml.flat",
+        "source": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\src\\main\\res\\layout\\activity_nav.xml"
+    },
+    {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_exit.xml.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\anim\\abc_tooltip_exit.xml"
     },
@@ -970,6 +978,10 @@
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
@@ -1114,6 +1126,10 @@
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_template2overlay.png.flat",
+        "source": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\src\\main\\res\\drawable-xxxhdpi\\template2overlay.png"
     },
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
@@ -1362,6 +1378,10 @@
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\56a7ef156d5183d3236bec5e59b3be46\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\anim_scale.xml.flat",
+        "source": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\src\\main\\res\\anim\\scale.xml"
     },
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23_abc_control_background_material.xml.flat",
