@@ -64,6 +64,7 @@
         android:textAlignment="center"
         android:textColor="#FFFF"
         android:textSize="18sp"
+        android:onClick="partiesSend"
         app:layout_constraintBottom_toBottomOf="@+id/rootRL"
         app:layout_constraintEnd_toEndOf="@+id/rootRL"
         app:layout_constraintHorizontal_bias="0.0"

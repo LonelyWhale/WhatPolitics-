@@ -12,6 +12,10 @@ anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
 anim scale
+anim slide_in_left
+anim slide_in_right
+anim slide_out_left
+anim slide_out_right
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -653,6 +657,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id TitleParties
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -717,6 +722,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -788,6 +794,8 @@ id textSpacerNoTitle
 id textView
 id textView2
 id textView3
+id textView5
+id textView6
 id time
 id title
 id titleDividerNoCustom
@@ -835,6 +843,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_nav
+layout activity_parties_home
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -887,6 +896,8 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
+string parties
+string partiesPageDescription
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
