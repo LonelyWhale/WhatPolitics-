@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Nav">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:id="@+id/rootRL"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -93,4 +93,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.681" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="64dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="1000dp"
+        android:onClick="homeReturn"
+        app:layout_constraintBottom_toTopOf="@+id/rootRL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/home" />
+
 </android.support.constraint.ConstraintLayout>

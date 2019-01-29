@@ -52,4 +52,19 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="OnClick" />
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="332dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toEndOf="@+id/TitleParties"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/topbannerred" />
+
 </android.support.constraint.ConstraintLayout>

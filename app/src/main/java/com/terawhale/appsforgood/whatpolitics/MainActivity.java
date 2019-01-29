@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(partiesPage);
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
+
     Runnable r = new Runnable() {
         @Override
         public void run() {

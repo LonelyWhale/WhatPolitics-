@@ -16,4 +16,8 @@ public class Nav extends AppCompatActivity {
         Intent partiesPage = new Intent(this,PartiesHome.class);
         startActivity(partiesPage);
     }
+    public void homeReturn (View view) {
+        Intent home = new Intent(this, MainActivity.class);
+        startActivity(home);
+    }
 }
