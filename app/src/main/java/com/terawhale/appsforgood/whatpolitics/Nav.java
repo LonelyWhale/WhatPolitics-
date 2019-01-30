@@ -20,4 +20,8 @@ public class Nav extends AppCompatActivity {
         Intent home = new Intent(this, MainActivity.class);
         startActivity(home);
     }
+    public void historySend(View view) {
+        Intent history = new Intent(this, historyHome.class);
+        startActivity(history);
+    }
 }

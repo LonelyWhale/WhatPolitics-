@@ -7,6 +7,20 @@
     tools:context=".PartiesHome">
 
     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="66dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="8dp"
+        android:onClick="homeSend"
+        android:text="→"
+        android:textAlignment="viewStart"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalCentre"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toTopOf="@+id/horizontalCentre"
+        tools:ignore="OnClick" />
+
+    <TextView
         android:id="@+id/TitleParties"
         android:layout_width="180dp"
         android:layout_height="62dp"
@@ -24,7 +38,7 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="314dp"
-        android:layout_height="44dp"
+        android:layout_height="53dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
@@ -35,36 +49,85 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TitleParties" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="119dp"
-        android:layout_height="103dp"
-        android:layout_marginStart="355dp"
-        android:layout_marginTop="302dp"
-        android:layout_marginBottom="326dp"
-        android:onClick="homeSend"
-        android:text="→"
-        android:textAlignment="viewStart"
-        android:textSize="55sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="OnClick" />
-
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="332dp"
-        android:layout_height="280dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="400dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.534"
-        app:layout_constraintStart_toEndOf="@+id/TitleParties"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="197dp"
+        android:layout_height="276dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
         app:srcCompat="@drawable/topbannerred" />
+
+    <TextView
+        android:id="@+id/conservative"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/blue_border"
+        android:onClick="conservative"
+        android:text="@string/conservativeTitle"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/toryPostion"
+        app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
+        app:layout_constraintStart_toStartOf="@+id/centreGuideline"
+        app:layout_constraintTop_toTopOf="@+id/toryPostion" />
+
+    <TextView
+        android:id="@+id/labour"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/red_border"
+        android:text="@string/labourTitle"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
+        app:layout_constraintStart_toStartOf="@+id/centreGuideline"
+        app:layout_constraintTop_toBottomOf="@+id/conservative" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/centreGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/toryPostion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontalCentre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
 
 </android.support.constraint.ConstraintLayout>

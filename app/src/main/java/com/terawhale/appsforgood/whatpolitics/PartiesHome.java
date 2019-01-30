@@ -17,4 +17,12 @@ public class PartiesHome extends AppCompatActivity {
         startActivity(homePage);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
+    public void conservative(View view) {
+        Intent conservativePage = new Intent(this,conservativePage.class);
+        startActivity(conservativePage);
+        overridePendingTransition(R.anim.slide_in_bottom, R.anim.slide_out_top);
+
+    }
+
+
 }

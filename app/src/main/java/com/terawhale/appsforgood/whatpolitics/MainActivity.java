@@ -32,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(partiesPage);
         overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
+    public void history(View view) {
+        Intent histroryStart;
+        histroryStart = new Intent(this,historyHome.class);
+        startActivity(histroryStart);
+        overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+    }
 
     Runnable r = new Runnable() {
         @Override

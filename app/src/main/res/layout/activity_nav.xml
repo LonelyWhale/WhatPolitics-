@@ -52,7 +52,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
-        android:layout_height="53dp"
+        android:layout_height="49dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="8dp"
@@ -60,11 +60,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:fontFamily="monospace"
+        android:onClick="partiesSend"
         android:text="Parties"
         android:textAlignment="center"
         android:textColor="#FFFF"
         android:textSize="18sp"
-        android:onClick="partiesSend"
         app:layout_constraintBottom_toBottomOf="@+id/rootRL"
         app:layout_constraintEnd_toEndOf="@+id/rootRL"
         app:layout_constraintHorizontal_bias="0.0"
@@ -87,6 +87,7 @@
         android:textAlignment="center"
         android:textColor="#FFFF"
         android:textSize="18sp"
+        android:onClick="historySend"
         app:layout_constraintBottom_toBottomOf="@+id/rootRL"
         app:layout_constraintEnd_toEndOf="@+id/rootRL"
         app:layout_constraintHorizontal_bias="1.0"
@@ -102,9 +103,10 @@
         android:onClick="homeReturn"
         app:layout_constraintBottom_toTopOf="@+id/rootRL"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintVertical_bias="0.411"
         app:srcCompat="@drawable/home" />
 
 </android.support.constraint.ConstraintLayout>

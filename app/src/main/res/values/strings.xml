@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">What Politics?</string>
     <string name="parties">Parties</string>
-    <string name="partiesPageDescription">Want to find out about the UK\'s Parties and ideologies? then you\'ve come
+    <string name="partiesPageDescription">Want to find out about the UK\'s biggest Parties and ideologies? Then you\'ve come
     to the right place. </string>
+    <string name="conservativeTitle">Conservative Party</string>
+    <string name="labourTitle">Labour Party</string>
+    <string name="conservativeContent">Leader: Theresa May\nPolicy:\nSocially-Special stuff</string>
 </resources>
