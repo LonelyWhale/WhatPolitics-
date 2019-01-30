@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".historyHome">
 
+    <TextView
+        android:id="@+id/imageView5"
+        android:layout_width="66dp"
+        android:layout_height="105dp"
+        android:onClick="partiesSend"
+        android:text="←"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="199dp"
@@ -27,4 +38,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
 </android.support.constraint.ConstraintLayout>

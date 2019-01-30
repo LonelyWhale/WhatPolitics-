@@ -5,5 +5,6 @@
     to the right place. </string>
     <string name="conservativeTitle">Conservative Party</string>
     <string name="labourTitle">Labour Party</string>
-    <string name="conservativeContent">Leader: Theresa May\nPolicy:\nSocially-Special stuff</string>
+    <string name="conservativeLeader">Leader: Theresa May</string>
+    <string name="conservativeExplanation">The party is divided on many social issues, as some believe the party should stay traditional such as Liam Fox, while others want to move forwards socially, such as when David Cameron legalised gay marriage.</string>
 </resources>

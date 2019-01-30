@@ -392,6 +392,7 @@ color button_material_light
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorWhite
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -731,6 +732,8 @@ id guideline
 id guideline10
 id guideline11
 id guideline12
+id guideline13
+id guideline14
 id guideline2
 id guideline3
 id guideline4
@@ -750,6 +753,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id info
 id invisible
 id italic
@@ -785,7 +789,6 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scrollView2
 id search_badge
 id search_bar
 id search_button
@@ -821,6 +824,11 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView10
+id textView11
+id textView12
+id textView13
+id textView14
 id textView2
 id textView3
 id textView4
@@ -828,6 +836,7 @@ id textView5
 id textView6
 id textView7
 id textView8
+id textView9
 id time
 id title
 id titleDividerNoCustom
@@ -931,7 +940,8 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
-string conservativeContent
+string conservativeExplanation
+string conservativeLeader
 string conservativeTitle
 string labourTitle
 string parties
