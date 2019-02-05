@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.05" />
+        app:layout_constraintGuide_percent="0.02" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline22"
@@ -38,8 +38,6 @@
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:text="Voting"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="48sp"
@@ -49,10 +47,11 @@
     <ScrollView
         android:layout_width="340dp"
         android:layout_height="549dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="65dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline22"
         app:layout_constraintEnd_toStartOf="@+id/guideline23"
-        app:layout_constraintStart_toStartOf="@+id/guideline20">
+        app:layout_constraintStart_toStartOf="@+id/guideline20"
+        app:layout_constraintTop_toBottomOf="@+id/textView17">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -64,8 +63,8 @@
                 android:layout_width="328dp"
                 android:layout_height="match_parent"
                 android:text="@string/voting"
-                android:textSize="18sp"
                 android:textColor="@color/darkishText"
+                android:textSize="18sp"
                 tools:layout_editor_absoluteX="41dp"
                 tools:layout_editor_absoluteY="220dp" />
         </LinearLayout>
