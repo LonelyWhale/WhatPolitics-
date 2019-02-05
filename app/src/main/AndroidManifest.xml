@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".conservativePage"></activity>
+        <activity android:name=".voting"></activity>
+        <activity android:name=".conservativePage" />
         <activity android:name=".historyHome" />
         <activity android:name=".PartiesHome" />
         <activity android:name=".MainActivity">

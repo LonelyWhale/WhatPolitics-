@@ -3,8 +3,12 @@
     <string name="parties">Parties</string>
     <string name="partiesPageDescription">Want to find out about the UK\'s biggest Parties and ideologies? Then you\'ve come
     to the right place. </string>
+    <string name="historyDescription">Ever wanted to know how we decide our new leaders or how we share our opinions? Maybe you wondered how we have got to where we are now? Well you are at the right place.</string>
     <string name="conservativeTitle">Conservative Party</string>
     <string name="labourTitle">Labour Party</string>
     <string name="conservativeLeader">Leader: Theresa May</string>
     <string name="conservativeExplanation">The party is divided on many social issues, as some believe the party should stay traditional such as Liam Fox, while others want to move forwards socially, such as when David Cameron legalised gay marriage.</string>
+    <string name="voting"><strong>First-Post-The-Post\n--------------------------------------\n</strong>This is the system used in the UK to elect new prime ministers and members of parliament in the general elections.\n The UK is divided into equally sized areas, each of which with a representative for each party (although some smaller parties may not have enough candidates to have a representative in each constituency). The equal sizing means that each voter has a roughly equal say.
+Inhabitants of each constituency, of which there are 650, vote for a single candidate in their area to elect them and give them a place in the House of Commons, called a seat. \n Each voter votes for a candidate that represents the party that they wish to vote for. That representative gains a seat in the House of Commons for their party. This uses the majority, and, as such, may result in coalitions if no parties gain above 50% of the votes.\n
+</string>
 </resources>

@@ -393,6 +393,7 @@ color colorAccent
 color colorPrimary
 color colorPrimaryDark
 color colorWhite
+color darkishText
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -638,6 +639,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable blue_border
+drawable dark_border
 drawable home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -708,6 +710,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id conservative
+id conservative2
 id content
 id contentPanel
 id custom
@@ -734,7 +737,16 @@ id guideline11
 id guideline12
 id guideline13
 id guideline14
+id guideline15
+id guideline16
+id guideline17
+id guideline18
+id guideline19
 id guideline2
+id guideline20
+id guideline21
+id guideline22
+id guideline23
 id guideline3
 id guideline4
 id guideline5
@@ -829,6 +841,10 @@ id textView11
 id textView12
 id textView13
 id textView14
+id textView15
+id textView16
+id textView17
+id textView18
 id textView2
 id textView3
 id textView4
@@ -888,6 +904,7 @@ layout activity_history_home
 layout activity_main
 layout activity_nav
 layout activity_parties_home
+layout activity_voting
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -943,11 +960,13 @@ string app_name
 string conservativeExplanation
 string conservativeLeader
 string conservativeTitle
+string historyDescription
 string labourTitle
 string parties
 string partiesPageDescription
 string search_menu_title
 string status_bar_notification_info_overflow
+string voting
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
