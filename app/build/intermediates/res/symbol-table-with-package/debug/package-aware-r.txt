@@ -639,6 +639,7 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable blue_border
+drawable blueheader
 drawable dark_border
 drawable home
 drawable ic_launcher_background
@@ -657,7 +658,9 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable page_border_blue
+drawable page_border_red
 drawable red_border
+drawable redheader
 drawable template2overlay
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -747,6 +750,11 @@ id guideline20
 id guideline21
 id guideline22
 id guideline23
+id guideline24
+id guideline25
+id guideline26
+id guideline27
+id guideline28
 id guideline3
 id guideline4
 id guideline5
@@ -777,6 +785,8 @@ id listMode
 id list_item
 id logo
 id logo2
+id manifesto
+id manifesto2
 id message
 id middle
 id multiply
@@ -845,7 +855,10 @@ id textView15
 id textView16
 id textView17
 id textView18
+id textView19
 id textView2
+id textView20
+id textView21
 id textView3
 id textView4
 id textView5
@@ -901,6 +914,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_conservative_page
 layout activity_history_home
+layout activity_labour_page
 layout activity_main
 layout activity_nav
 layout activity_parties_home
@@ -957,10 +971,13 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
-string conservativeExplanation
+string conPolicyList
 string conservativeLeader
+string conservativeManifesto
 string conservativeTitle
 string historyDescription
+string labourLeader
+string labourManifesto
 string labourTitle
 string parties
 string partiesPageDescription

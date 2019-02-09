@@ -35,8 +35,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="199dp"
-        android:layout_height="285dp"
+        android:layout_width="268dp"
+        android:layout_height="389dp"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
         app:layout_constraintTop_toTopOf="@+id/guideline8"
         app:srcCompat="@drawable/topbannerblue" />
@@ -81,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.9" />
+        app:layout_constraintGuide_percent="0.96" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline19"
@@ -95,27 +95,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.1" />
+        app:layout_constraintGuide_percent="0.15" />
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="160dp"
+        android:layout_width="289dp"
         android:layout_height="67dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="History"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:text="How it Works"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="48sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline17"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline18"
         app:layout_constraintTop_toTopOf="@+id/guideline16" />
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="309dp"
-        android:layout_height="117dp"
+        android:layout_width="289dp"
+        android:layout_height="69dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:text="@string/historyDescription"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"

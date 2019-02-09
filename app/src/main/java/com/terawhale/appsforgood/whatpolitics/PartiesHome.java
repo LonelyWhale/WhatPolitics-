@@ -23,6 +23,11 @@ public class PartiesHome extends AppCompatActivity {
         overridePendingTransition(R.anim.slide_in_bottom, R.anim.slide_out_top);
 
     }
+    public void labour(View view) {
+        Intent labourPage = new Intent(this, labourPage.class);
+        startActivity((labourPage));
+        overridePendingTransition(R.anim.slide_in_bottom,R.anim.slide_out_top);
+    }
 
 
 }
