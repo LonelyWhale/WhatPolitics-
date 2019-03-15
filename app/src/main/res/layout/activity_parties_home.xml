@@ -8,15 +8,19 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="66dp"
+        android:layout_width="wrap_content"
         android:layout_height="105dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
         android:onClick="homeSend"
         android:text="→"
         android:textAlignment="viewStart"
         android:textSize="55sp"
         app:layout_constraintBottom_toTopOf="@+id/horizontalCentre"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Wales"
         app:layout_constraintTop_toTopOf="@+id/horizontalCentre"
         tools:ignore="OnClick" />
 
@@ -24,7 +28,7 @@
         android:id="@+id/TitleParties"
         android:layout_width="180dp"
         android:layout_height="62dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="30dp"
         android:contentDescription="Page title"
         android:text="@string/parties"
@@ -39,7 +43,7 @@
         android:id="@+id/textView5"
         android:layout_width="314dp"
         android:layout_height="53dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="10dp"
         android:text="@string/partiesPageDescription"
         android:textColor="@color/colorPrimaryDark"
@@ -55,38 +59,85 @@
         app:srcCompat="@drawable/topbannerred" />
 
     <TextView
-        android:id="@+id/conservative"
+        android:id="@+id/UKWide"
         android:layout_width="290dp"
         android:layout_height="41dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/blue_border"
-        android:onClick="conservative"
-        android:text="@string/conservativeTitle"
+        android:background="@drawable/light_blue_border"
+        android:onClick="UKWide"
+        android:text="UK Wide"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/toryPostion"
         app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
         app:layout_constraintStart_toStartOf="@+id/centreGuideline"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
-        android:id="@+id/labour"
+        android:id="@+id/England"
         android:layout_width="290dp"
         android:layout_height="41dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/red_border"
-        android:onClick="labour"
-        android:text="@string/labourTitle"
+        android:onClick="england"
+        android:text="England"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/horizontalCentre"
         app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
         app:layout_constraintStart_toStartOf="@+id/centreGuideline"
-        app:layout_constraintTop_toBottomOf="@+id/conservative"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/UKWide" />
+
+    <TextView
+        android:id="@+id/Scotland"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/dark_blue_border"
+        android:onClick="scotland"
+        android:text="Scotland"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/centreGuideline"
+        app:layout_constraintTop_toBottomOf="@+id/England" />
+
+    <TextView
+        android:id="@+id/Wales"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/green_border"
+        android:onClick="wales"
+        android:text="Wales"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="@+id/centreGuideline"
+        app:layout_constraintTop_toBottomOf="@+id/Scotland" />
+
+    <TextView
+        android:id="@+id/NIreland"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/orange_border"
+        android:onClick="nIreland"
+        android:text="Northern Ireland"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="@+id/centreGuideline"
+        app:layout_constraintTop_toBottomOf="@+id/Wales" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline5"
@@ -107,7 +158,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
+        app:layout_constraintGuide_percent="0.44" />
 
     <android.support.constraint.Guideline
         android:id="@+id/toryPostion"

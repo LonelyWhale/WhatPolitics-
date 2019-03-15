@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".labourPage"></activity>
+        <activity android:name=".NIreland"></activity>
+        <activity android:name=".Wales" />
+        <activity android:name=".Scotland" />
+        <activity android:name=".UKParties" />
+        <activity android:name=".labourPage" />
         <activity android:name=".voting" />
         <activity android:name=".conservativePage" />
         <activity android:name=".historyHome" />
@@ -22,6 +26,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Nav" />
+        <activity android:name=".England" />
     </application>
 
 </manifest>

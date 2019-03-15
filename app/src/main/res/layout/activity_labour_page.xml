@@ -59,7 +59,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
         android:onClick="LabManifestoSend"
-        android:text="@string/conservativeManifesto"
+        android:text="@string/labourManifesto"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         android:textStyle="bold"

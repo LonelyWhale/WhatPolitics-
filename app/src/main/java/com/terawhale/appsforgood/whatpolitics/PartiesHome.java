@@ -16,18 +16,32 @@ public class PartiesHome extends AppCompatActivity {
         Intent homePage = new Intent(this,MainActivity.class);
         startActivity(homePage);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-    }
-    public void conservative(View view) {
-        Intent conservativePage = new Intent(this,conservativePage.class);
-        startActivity(conservativePage);
-        overridePendingTransition(R.anim.slide_in_bottom, R.anim.slide_out_top);
 
     }
-    public void labour(View view) {
-        Intent labourPage = new Intent(this, labourPage.class);
-        startActivity((labourPage));
+    public void UKWide (View view) {
+            Intent UK = new Intent(this,UKParties.class);
+            startActivity(UK);
+            overridePendingTransition(R.anim.slide_in_bottom,R.anim.slide_out_top);
+    }
+    public void england(View view){
+        Intent England = new Intent(this,England.class);
+        startActivity(England);
+        overridePendingTransition(R.anim.slide_in_bottom, R.anim.slide_out_top);
+    }
+    public void scotland (View view) {
+        Intent Scotland = new Intent(this,Scotland.class);
+        startActivity(Scotland);
         overridePendingTransition(R.anim.slide_in_bottom,R.anim.slide_out_top);
     }
-
+    public void wales (View view) {
+        Intent Wales = new Intent(this,Wales.class);
+        startActivity(Wales);
+        overridePendingTransition(R.anim.slide_in_bottom,R.anim.slide_out_top);
+    }
+    public void nIreland (View view) {
+        Intent NIreland = new Intent(this,NIreland.class);
+        startActivity(NIreland);
+        overridePendingTransition(R.anim.slide_in_bottom,R.anim.slide_out_top);
+    }
 
 }
