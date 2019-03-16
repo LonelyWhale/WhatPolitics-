@@ -663,6 +663,8 @@ drawable notify_panel_notification_icon_bg
 drawable orange_border
 drawable page_border_blue
 drawable page_border_red
+drawable page_border_yellow
+drawable purple_border
 drawable red_border
 drawable redheader
 drawable template2overlay
@@ -670,6 +672,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable topbannerblue
 drawable topbannerred
+drawable yellow_border
 id ALT
 id CTRL
 id England
@@ -721,8 +724,8 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id conservative
 id conservative2
-id conservative3
 id content
 id contentPanel
 id custom
@@ -767,6 +770,10 @@ id guideline28
 id guideline29
 id guideline3
 id guideline30
+id guideline31
+id guideline32
+id guideline33
+id guideline34
 id guideline4
 id guideline5
 id guideline6
@@ -788,7 +795,10 @@ id imageView5
 id info
 id invisible
 id italic
+id labour
 id labour2
+id labour3
+id labour4
 id left
 id line1
 id line3
@@ -875,7 +885,12 @@ id textView23
 id textView24
 id textView25
 id textView26
+id textView27
+id textView28
+id textView29
 id textView3
+id textView30
+id textView31
 id textView4
 id textView5
 id textView6
@@ -932,6 +947,7 @@ layout activity_conservative_page
 layout activity_england
 layout activity_history_home
 layout activity_labour_page
+layout activity_libdem_page
 layout activity_main
 layout activity_nav
 layout activity_nireland
@@ -952,6 +968,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+string UKIPTitle
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -996,10 +1013,14 @@ string conPolicyList
 string conservativeLeader
 string conservativeManifesto
 string conservativeTitle
+string greenTitle
 string historyDescription
 string labourLeader
 string labourManifesto
 string labourTitle
+string lbdemLeader
+string libdemManifesto
+string libdemTitle
 string parties
 string partiesPageDescription
 string search_menu_title

@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NIreland"></activity>
+        <activity android:name=".libdem_page"></activity>
+        <activity android:name=".NIreland" />
         <activity android:name=".Wales" />
         <activity android:name=".Scotland" />
         <activity android:name=".UKParties" />

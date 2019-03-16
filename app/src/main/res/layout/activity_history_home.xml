@@ -10,16 +10,17 @@
         android:id="@+id/conservative2"
         android:layout_width="290dp"
         android:layout_height="41dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/dark_border"
         android:onClick="votingPage"
         android:text="Voting"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline19"
-        app:layout_constraintStart_toStartOf="@+id/guideline19"
+        app:layout_constraintEnd_toStartOf="@+id/guideline17"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline18"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <TextView

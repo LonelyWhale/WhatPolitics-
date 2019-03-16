@@ -10,7 +10,7 @@
     <string name="voting"><strong>First-Past-The-Post\n--------------------------------------\n</strong>This is the system used in the UK to elect new prime ministers and members of parliament in the general elections.\n The UK is divided into equally sized areas, each of which with a representative for each party (although some smaller parties may not have enough candidates to have a representative in each constituency). The equal sizing means that each voter has a roughly equal say.
 Inhabitants of each constituency, of which there are 650, vote for a single candidate in their area to elect them and give them a place in the House of Commons, called a seat. \n Each voter votes for a candidate that represents the party that they wish to vote for. That representative gains a seat in the House of Commons for their party. This uses the majority, and, as such, may result in coalitions if no parties gain above 50% of the votes.\n
 </string>
-    <string name="conservativeManifesto"><u>Click here for the Conservative Manifesto.</u></string>
+    <string name="conservativeManifesto">Click here for the Conservative Manifesto.</string>
     <string name="labourManifesto">Click here for the Labour Manifesto.</string>
     <string name="conPolicyList">
         • Spend 2% of GDP on the military - with further increases over time.\n
