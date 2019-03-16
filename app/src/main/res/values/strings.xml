@@ -15,4 +15,9 @@ Inhabitants of each constituency, of which there are 650, vote for a single cand
     <string name="conPolicyList">
         • Spend 2% of GDP on the military - with further increases over time.\n
     </string>
+    <string name="libdemTitle">Liberal Democrat</string>
+    <string name="lbdemLeader">Leader: Vince Cable</string>
+    <string name="libdemManifesto">Click here for the Liberal Democrat Manifesto.</string>
+    <string name="greenTitle">Green</string>
+    <string name="UKIPTitle">UKIP</string>
 </resources>
