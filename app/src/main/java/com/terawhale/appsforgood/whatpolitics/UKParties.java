@@ -28,4 +28,9 @@ public class UKParties extends AppCompatActivity {
         startActivity(LibDems);
         overridePendingTransition(R.anim.slide_in_bottom,R.anim.slide_out_top);
     }
+    public void returnParties(View view) {
+        Intent Return = new Intent(this,PartiesHome.class);
+        startActivity(Return);
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+    }
 }

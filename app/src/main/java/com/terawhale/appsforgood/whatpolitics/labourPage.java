@@ -17,4 +17,9 @@ public class labourPage extends AppCompatActivity {
         Intent manifesto = new Intent(Intent.ACTION_VIEW, Uri.parse("https://labour.org.uk/manifesto/"));
         startActivity(manifesto);
     }
+    public void returnUkParties(View view) {
+        Intent Return = new Intent(this,UKParties.class);
+        startActivity(Return);
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+    }
 }

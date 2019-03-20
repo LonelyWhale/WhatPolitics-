@@ -668,6 +668,7 @@ drawable page_border_yellow
 drawable purple_border
 drawable red_border
 drawable redheader
+drawable returnimageasset
 drawable template2overlay
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -790,10 +791,19 @@ id icon_group
 id ifRoom
 id image
 id imageView
+id imageView10
+id imageView11
+id imageView12
+id imageView13
+id imageView14
 id imageView2
 id imageView3
 id imageView4
 id imageView5
+id imageView6
+id imageView7
+id imageView8
+id imageView9
 id info
 id invisible
 id italic
@@ -834,6 +844,7 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id search_badge
 id search_bar
 id search_button
@@ -893,6 +904,7 @@ id textView29
 id textView3
 id textView30
 id textView31
+id textView32
 id textView4
 id textView5
 id textView6
@@ -1029,6 +1041,7 @@ string parties
 string partiesPageDescription
 string search_menu_title
 string status_bar_notification_info_overflow
+string tutorial
 string voting
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

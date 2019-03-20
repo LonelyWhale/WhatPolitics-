@@ -12,4 +12,9 @@ public class England extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_england);
     }
+    public void returnParties(View view) {
+        Intent Return = new Intent(this,PartiesHome.class);
+        startActivity(Return);
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+    }
 }
