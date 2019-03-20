@@ -1,4 +1,4 @@
-#Wed Mar 20 20:40:05 GMT 2019
+#Wed Mar 20 22:34:38 GMT 2019
 base.0=C\:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
 path.0=classes.dex
 renamed.0=classes.dex
