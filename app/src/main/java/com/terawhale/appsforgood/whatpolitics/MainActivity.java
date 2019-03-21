@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         animation=AnimationUtils.loadAnimation(getApplicationContext(),R.anim.scale);
     }
     public void navDisplay(View view) {
-        img.startAnimation(animation);
-        mHandler.postDelayed(r,800);
+        Intent Navigation = new Intent(this,Nav.class);
+        startActivity(Navigation);
     }
     public void partiesSend(View view) {
         Intent partiesPage = new Intent(this,PartiesHome.class);
@@ -38,13 +38,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(histroryStart);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
     }
-
-    Runnable r = new Runnable() {
-        @Override
-        public void run() {
-            startActivity(new Intent(MainActivity.this,Nav.class));
-        }
-    };
 }
 
 

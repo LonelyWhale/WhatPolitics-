@@ -2,7 +2,7 @@
     <string name="app_name">What Politics?</string>
     <string name="parties">Parties</string>
     <string name="partiesPageDescription">Here you\'ll find a description of the parties across the UK and ones which are specific to each country.</string>
-    <string name="historyDescription">Here you will find out about the way we vote in the Uk and the history behind the Uk\'s political system. </string>
+    <string name="historyDescription">Here you will find out about the way we vote in the UK and the history behind the UK\'s political system. </string>
     <string name="conservativeTitle">Conservative Party</string>
     <string name="labourTitle">Labour Party</string>
     <string name="conservativeLeader">Leader: Theresa May</string>
@@ -21,4 +21,7 @@ Inhabitants of each constituency, of which there are 650, vote for a single cand
     <string name="greenTitle">Green</string>
     <string name="UKIPTitle">UKIP</string>
     <string name="tutorial">Tap ← to head to information on political parties in the United Kingdom. \n \nTap on → to head to information on how we vote in the UK and also some information on the history of the political system.\n \nTap on this arrow ↓ to see articles on current issues and political events. \n\nTap on the logo above to open the navigation page, from hear you can head to the different sections within the app.</string>
+    <string name="conservativePrinciples">• Strength and stability - A good economy needs to be reliable. \n • Meritocracy - People who work hard should see the benefits. </string>
+    <string name="conservativePolicies">• Increase military spending. \n • Reduce taxes. \n • Simplify regulations to save money. \n • Encourage trade by making agreements to replace what we had in the EU.</string>
+    <string name="labourPrinciples">• Fairness \n • Security - People should be confident in the things they rely on.</string>
 </resources>

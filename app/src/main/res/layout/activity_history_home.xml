@@ -8,11 +8,12 @@
 
     <TextView
         android:id="@+id/conservative2"
-        android:layout_width="290dp"
+        android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/dark_border"
+        android:fontFamily="@font/raleway_regular"
         android:onClick="votingPage"
         android:text="Voting"
         android:textAlignment="center"
@@ -100,13 +101,14 @@
 
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="289dp"
+        android:layout_width="0dp"
         android:layout_height="67dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/raleway_regular"
         android:text="How it Works"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="48sp"
+        android:textSize="45sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline17"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline18"
@@ -114,10 +116,11 @@
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="289dp"
-        android:layout_height="69dp"
+        android:layout_width="0dp"
+        android:layout_height="84dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/raleway_regular"
         android:text="@string/historyDescription"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"

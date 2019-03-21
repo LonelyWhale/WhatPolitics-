@@ -312,6 +312,10 @@
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\beb18863911fac4e37eca1f9ce4185b0\\res\\color-v23\\abc_tint_default.xml"
     },
     {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\font_raleway_regular.ttf.flat",
+        "source": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\src\\main\\res\\font\\raleway_regular.ttf"
+    },
+    {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\beb18863911fac4e37eca1f9ce4185b0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -498,6 +502,10 @@
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\beb18863911fac4e37eca1f9ce4185b0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\font_raleway.xml.flat",
+        "source": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\src\\main\\res\\font\\raleway.xml"
     },
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -786,6 +794,10 @@
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "C:\\Users\\joshu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\beb18863911fac4e37eca1f9ce4185b0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\font_raleway_italic.ttf.flat",
+        "source": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\src\\main\\res\\font\\raleway_italic.ttf"
     },
     {
         "merged": "C:\\Users\\joshu\\OneDrive\\Documents\\WhatPolitics\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_action_bar_item_background_material.xml.flat",

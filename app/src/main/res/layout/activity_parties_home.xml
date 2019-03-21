@@ -31,6 +31,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="30dp"
         android:contentDescription="Page title"
+        android:fontFamily="@font/raleway_regular"
         android:text="@string/parties"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="48sp"
@@ -45,6 +46,7 @@
         android:layout_height="53dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="10dp"
+        android:fontFamily="@font/raleway_regular"
         android:text="@string/partiesPageDescription"
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,6 +66,7 @@
         android:layout_height="41dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/light_blue_border"
+        android:fontFamily="@font/raleway_regular"
         android:onClick="UKWide"
         android:text="UK Wide"
         android:textAlignment="center"
@@ -74,27 +77,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
-        android:id="@+id/England"
-        android:layout_width="290dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/red_border"
-        android:onClick="england"
-        android:text="England"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
-        app:layout_constraintStart_toStartOf="@+id/centreGuideline"
-        app:layout_constraintTop_toBottomOf="@+id/UKWide" />
-
-    <TextView
         android:id="@+id/Scotland"
         android:layout_width="290dp"
         android:layout_height="41dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/dark_blue_border"
+        android:fontFamily="@font/raleway_regular"
         android:onClick="scotland"
         android:text="Scotland"
         android:textAlignment="center"
@@ -103,7 +92,7 @@
         app:layout_constraintEnd_toStartOf="@+id/centreGuideline"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="@+id/centreGuideline"
-        app:layout_constraintTop_toBottomOf="@+id/England" />
+        app:layout_constraintTop_toBottomOf="@+id/UKWide" />
 
     <TextView
         android:id="@+id/Wales"
@@ -112,6 +101,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="9dp"
         android:background="@drawable/green_border"
+        android:fontFamily="@font/raleway_regular"
         android:onClick="wales"
         android:text="Wales"
         android:textAlignment="center"
@@ -129,6 +119,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/orange_border"
+        android:fontFamily="@font/raleway_regular"
         android:onClick="nIreland"
         android:text="Northern Ireland"
         android:textAlignment="center"
@@ -179,7 +170,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.98" />
+        app:layout_constraintGuide_percent="1" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline28"

@@ -99,9 +99,9 @@
                 android:id="@+id/textView32"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/raleway_regular"
                 android:text="@string/tutorial"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="24sp" />
+                android:textSize="18sp" />
         </LinearLayout>
     </ScrollView>
 
