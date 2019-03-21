@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.95" />
+        app:layout_constraintGuide_percent="0.96" />
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline3"
@@ -73,7 +73,6 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
@@ -129,13 +128,14 @@
 
             <TextView
                 android:id="@+id/textView33"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="93dp"
                 android:layout_marginStart="16dp"
                 android:fontFamily="@font/raleway_regular"
                 android:text="@string/conservativePrinciples"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/textView13"
                 app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -153,13 +153,14 @@
 
             <TextView
                 android:id="@+id/textView35"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="113dp"
                 android:layout_marginStart="16dp"
                 android:fontFamily="@font/raleway_regular"
                 android:text="@string/conservativePolicies"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView34" />
         </android.support.constraint.ConstraintLayout>

@@ -18,7 +18,7 @@ public class libdem_page extends AppCompatActivity {
         startActivity(manifesto);
     }
     public void returnUkParties(View view) {
-        Intent Return = new Intent(this,UKParties.class);
+        Intent Return = new Intent(this,PartiesHome.class);
         startActivity(Return);
         overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
     }

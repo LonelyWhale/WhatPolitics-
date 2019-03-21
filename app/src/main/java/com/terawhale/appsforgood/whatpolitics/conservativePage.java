@@ -20,7 +20,7 @@ public class conservativePage extends AppCompatActivity {
         startActivity(manifesto);
     }
     public void returnUKParties(View view) {
-        Intent Return = new Intent(this,UKParties.class);
+        Intent Return = new Intent(this,PartiesHome.class);
         startActivity(Return);
         overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
     }
